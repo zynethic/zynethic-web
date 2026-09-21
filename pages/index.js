@@ -110,6 +110,7 @@ export default function Home() {
               <a href='https://whitepaper.zynethic.xyz/' target='_blank'>WHITEPAPER</a>
               <hr style='border:0; border-top:1px solid var(--glass-border); margin:15px 0;'/>
               <a href='https://app.zynethic.xyz/' target='_blank' style='font-size:0.75rem; color:var(--base-glow); font-weight:800; margin-bottom:18px;'>ZYNETHIC APP</a>
+              <hr style='border:0; border-top:1px solid var(--glass-border); margin:15px 0;'/>
               <p style='font-size:0.75rem; color:var(--base-glow); font-weight:800; margin:0;'>NETWORK: BASE L2</p>
             </div>
           </div>
