@@ -16,8 +16,9 @@
     <img src="https://img.shields.io/badge/Documentation-Whitepaper-00f7ff?style=for-the-badge&logo=gitbook&logoColor=black" alt="Whitepaper" />
   </a>
 </p>
+
 ---
-### 🛡️ **INVESTOR SECURITY & PROTOCOL HIGHLIGHTS**
+## 🛡️ INVESTOR SECURITY & PROTOCOL HIGHLIGHTS
 
 | Protocol Metric | Specification Details | Security Assurance |
 | :--- | :--- | :--- |
