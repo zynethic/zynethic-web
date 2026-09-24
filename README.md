@@ -3,6 +3,9 @@
   <b>Institutional-Grade AI Intelligence & Decentralized Infrastructure on Base Network</b>
 </p>
 <p align="center">
+  <a href="https://github.com/zynethic/zynethic-web/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-00f7ff?style=for-the-badge&logo=open-source-initiative&logoColor=black" alt="License MIT" />
+  </a>
   <a href="https://zynethic.xyz">
     <img src="https://img.shields.io/badge/Official_Website-zynethic.xyz-0052ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
   </a>
