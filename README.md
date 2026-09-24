@@ -2,7 +2,6 @@
   <img src="https://raw.githubusercontent.com/zynethic/zntc-icon/main/zntc.png" alt="ZYNETHIC Logo" width="110" height="110" />
   <h1>ZYNETHIC Website Gateway</h1>
   <p><strong>The Global Badge of Honor for the AI + Web3 Revolution on Base Network</strong></p>
-  <!-- Status & Verification Badges -->
   <a href="https://zynethic.xyz">
     <img src="https://img.shields.io/badge/Website-zynethic.xyz-0052ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Website" />
   </a>
