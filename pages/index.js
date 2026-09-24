@@ -1,13 +1,30 @@
 import Head from 'next/head';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isCaModalOpen, setIsCaModalOpen] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
+  const menuRef = useRef(null);
 
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  // Toggle Dropdown Menu
+  const toggleMenu = (e) => {
+    e.stopPropagation();
+    setIsMenuOpen((prev) => !prev);
+  };
+
   const closeMenu = () => setIsMenuOpen(false);
+
+  // Otomatis menutup menu ketika pengguna klik di luar area dropdown
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   const openCAModal = () => setIsCaModalOpen(true);
   const closeCAModal = () => {
@@ -62,12 +79,14 @@ export default function Home() {
           <img alt="ZYNETHIC Icon" className="logo-img" src="https://raw.githubusercontent.com/zynethic/zntc-icon/main/zntc.png" />
           <div className="logo-text">ZYNE<span>THIC</span></div>
         </div>
-        <div className="menu-container">
-          <button className="menu-btn" onClick={toggleMenu}>
-            EXPLORE <i className="fa-solid fa-chevron-down" style={{ marginLeft: '8px', fontSize: '0.8rem' }}></i>
+
+        {/* CONTAINER MENU DENGAN REF */}
+        <div className="menu-container" ref={menuRef}>
+          <button className="menu-btn" onClick={toggleMenu} type="button">
+            EXPLORE <i className={`fa-solid fa-chevron-down ${isMenuOpen ? 'rotate-icon' : ''}`} style={{ marginLeft: '8px', fontSize: '0.8rem', transition: '0.3s' }}></i>
           </button>
           
-          <div className={`menu-content ${isMenuOpen ? 'active' : ''}`} id="menu-content">
+          <div className={`menu-content ${isMenuOpen ? 'active' : ''}`}>
             <a href="#tokenomics" onClick={closeMenu}>TOKENOMICS</a>
             <a href="#roadmap" onClick={closeMenu}>ROADMAP</a>
             <a href="#vision" onClick={closeMenu}>VISION</a>
@@ -75,14 +94,12 @@ export default function Home() {
             
             <hr className="menu-divider" />
             
-            {/* LINK dAPP UTAMA */}
             <a href="https://app.zynethic.xyz/" target="_blank" rel="noreferrer" className="menu-link-highlight" onClick={closeMenu}>
               ZYNETHIC APP
             </a>
             
             <hr className="menu-divider" />
 
-            {/* LINK AI HUB BARU (PERSIS SEPERTI ZYNETHIC APP) */}
             <a href="https://ai.zynethic.xyz/" target="_blank" rel="noreferrer" className="menu-link-highlight" onClick={closeMenu}>
               ZYNETHIC AI HUB
             </a>
