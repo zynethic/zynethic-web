@@ -1,50 +1,74 @@
-# ZYNETHIC Website Gateway
-**The Global Badge of Honor for the AI + Web3 Revolution on Base Network**
-[![Official Website](https://img.shields.io/badge/Website-zynethic.xyz-0052ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://zynethic.xyz)
-[![Base Network](https://img.shields.io/badge/Network-Base_L2-0052ff?style=for-the-badge&logo=ethereum&logoColor=white)](https://basescan.org/address/0x553E1479999432aBF4D7c4aD613faac6b62Fcb5b)
-[![Contract Verified](https://img.shields.io/badge/Contract-Verified-00ff88?style=for-the-badge&logo=basescan&logoColor=black)](https://basescan.org/address/0x553E1479999432aBF4D7c4aD613faac6b62Fcb5b#code)
-[![Whitepaper](https://img.shields.io/badge/Docs-Whitepaper-00f7ff?style=for-the-badge&logo=gitbook&logoColor=black)](https://whitepaper.zynethic.xyz/)
-![Security Audit Passed](https://img.shields.io/badge/Security_Audit-Passed-00ff88?style=for-the-badge&logo=shieldcheck&logoColor=black)
-![Liquidity Locked](https://img.shields.io/badge/Liquidity-1Y_Locked-f33a7e?style=for-the-badge&logo=lock&logoColor=white)
-![Zero Tax](https://img.shields.io/badge/Token_Tax-0%25_Buy_%2F_0%25_Sell-00f7ff?style=for-the-badge&logo=coins&logoColor=black)
+<h1 align="center">⚡ ZYNETHIC ECOSYSTEM GATEWAY</h1>
+<p align="center">
+  <b>Institutional-Grade AI Intelligence & Decentralized Infrastructure on Base Network</b>
+</p>
+<p align="center">
+  <a href="https://zynethic.xyz">
+    <img src="https://img.shields.io/badge/Official_Website-zynethic.xyz-0052ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://basescan.org/address/0x553E1479999432aBF4D7c4aD613faac6b62Fcb5b">
+    <img src="https://img.shields.io/badge/Blockchain-Base_L2-0052ff?style=for-the-badge&logo=ethereum&logoColor=white" alt="Base Network" />
+  </a>
+  <a href="https://basescan.org/address/0x553E1479999432aBF4D7c4aD613faac6b62Fcb5b#code">
+    <img src="https://img.shields.io/badge/Basescan-Verified_Contract-00ff88?style=for-the-badge&logo=basescan&logoColor=black" alt="Contract" />
+  </a>
+  <a href="https://whitepaper.zynethic.xyz/">
+    <img src="https://img.shields.io/badge/Documentation-Whitepaper-00f7ff?style=for-the-badge&logo=gitbook&logoColor=black" alt="Whitepaper" />
+  </a>
+</p>
 ---
-## 📌 Overview & Ecosystem Core
-**`zynethic-web`** serves as the primary landing page and centralized intelligence portal for the **ZYNETHIC ($ZNTC)** ecosystem deployed on Base Mainnet.
-Designed with institutional Web3 standards, this gateway routes users, investors, and token holders directly into the two core pillars of the ZYNETHIC platform:
-### 🌐 1. ZYNETHIC dApp (app.zynethic.xyz)
-The primary decentralized application for token governance and holder utility:
-- **Holder Gate & Web3 Verification**: Web3 wallet authentication protocol granting tier-based access exclusively to $ZNTC token holders.
-- **Staking & Vault Governance**: Smart contract vaults enabling $ZNTC holders to lock assets for yield rewards and participate in community DAO governance decisions.
-- **Ecosystem Analytics Dashboard**: Real-time monitoring of tokenomics metrics, liquidity pool lock status, burning schedules, and Base network status.
-### 🤖 2. ZYNETHIC AI Hub (ai.zynethic.xyz)
-An all-in-one suite of AI-powered Web3 tools built for analysis, content generation, and smart contract security:
-- **Auto Clipper AI**: Automated video processing engine that curates dynamic clips and shorts tailored for Web3 creators and marketing campaigns.
-- **Market Intelligence AI**: High-frequency algorithmic signal engine delivering automated Crypto/Forex trading insights and real-time Web3 news scraping.
-- **ZYNETHIC Chat AI**: Interactive assistant specialized in Solidity smart contract creation, developer debugging, and Base L2 ecosystem queries.
-- **Security Scan AI**: On-chain audit engine providing instant smart contract vulnerability scans, honeypot detection, tax rate checks, and risk scoring prior to execution.
----
-## 📊 Tokenomics Overview ($ZNTC)
-- **Token Name**: ZYNETHIC
-- **Ticker**: `$ZNTC`
-- **Network**: Base Mainnet (Layer 2)
-- **Total Supply**: 40,000,000 $ZNTC (Fixed / Non-Mintable)
-- **Tax Policy**: 0% Buy / 0% Sell
-- **Contract Address**: `0x553E1479999432aBF4D7c4aD613faac6b62Fcb5b`
+### 🛡️ **INVESTOR SECURITY & PROTOCOL HIGHLIGHTS**
 
-| Asset Group | Allocation % | Total Tokens | Strategic Purpose |
+| Protocol Metric | Specification Details | Security Assurance |
+| :--- | :--- | :--- |
+| **Blockchain Network** | Base Network (Coinbase L2 Ecosystem) | High Scalability & Low Gas Fees |
+| **Token Contract** | `0x553E1479999432aBF4D7c4aD613faac6b62Fcb5b` | Non-Mintable & Immutable Standard |
+| **Total Supply** | 40,000,000 $ZNTC (Strictly Fixed) | Zero Inflationary Scarcity |
+| **Tax Policy** | 0% Buy / 0% Sell | Frictionless Trading Experience |
+| **Liquidity Status** | LP Tokens Locked for 1 Year | Guaranteed Market Depth & Protection |
+
+---
+## 📌 Protocol Overview & Architecture
+**`zynethic-web`** serves as the central gateway portal for the **ZYNETHIC ($ZNTC)** ecosystem. Designed with institutional standards, this portal orchestrates seamless Web3 navigation across three core operational hubs:
+
+| Ecosystem Platform | Domain Endpoint | Core Utility & Function |
+| :--- | :--- | :--- |
+| **🌐 Main Gateway** | `zynethic.xyz` | Central Hub, Tokenomics Verification, & Roadmap Portal |
+| **🏛️ Decentralized dApp** | `app.zynethic.xyz` | Holder Verification Gate, Vault Staking, & DAO Governance |
+| **🤖 AI Intelligence Hub** | `ai.zynethic.xyz` | Auto Clipper, Market Intelligence, Chat AI, & Security Audit |
+
+---
+## 🌐 Ecosystem Core Pillars
+### 🏛️ 1. ZYNETHIC dApp Portal (`app.zynethic.xyz`)
+The decentralized governance and utility portal engineered for $ZNTC token holders:
+- **Web3 Holder Verification Gate**: Automated cryptographic wallet verification providing tier-based access to proprietary ecosystem utilities.
+- **Vault Governance & Staking**: Secure smart contract vaults allowing holders to stake $ZNTC, earn yield rewards, and participate in DAO governance.
+- **Institutional Analytics Dashboard**: Live execution metrics, real-time supply dynamics, liquidity tracking, and Base L2 network telemetry.
+### 🤖 2. ZYNETHIC AI Intelligence Suite (`ai.zynethic.xyz`)
+A comprehensive suite of artificial intelligence tools tailored for crypto traders, Web3 developers, and content creators:
+- **Auto Clipper AI**: Autonomous video curation engine processing long-form media into viral short clips for marketing campaigns.
+- **Market Intelligence AI**: High-frequency algorithmic trading engine providing real-time Forex/Crypto signals and automated news scraping.
+- **ZYNETHIC Chat AI**: Specialized assistant trained on Solidity smart contract architecture, vulnerability auditing, and Base L2 development.
+- **Security Scan AI**: On-chain audit scanner providing real-time contract analysis, tax verification, honeypot detection, and safety scoring.
+---
+## 📊 Strategic Tokenomics Allocation
+
+| Asset Group | Supply Ratio | Token Allocation | Strategic Execution |
 | :--- | :--- | :--- | :--- |
-| **Community Presale** | 35% | 14,000,000 | Community-led fundraising for launch & ecosystem building |
-| **Locked Liquidity** | 25% | 10,000,000 | Locked LP to guarantee market stability and deep trading volume |
-| **Global Marketing** | 15% | 6,000,000 | Global expansion, influencer partnerships, and AI awareness |
-| **Development Team** | 15% | 6,000,000 | Long-term development and continuous AI + Web3 innovation |
-| **Strategic Burn** | 10% | 4,000,000 | Systematic deflationary protocol to increase token scarcity over time |
+| 🚀 **Community Presale** | **35%** | **14,000,000 $ZNTC** | Distributed via community fundraising for fair launch |
+| 🔒 **Locked Liquidity** | **25%** | **10,000,000 $ZNTC** | Locked in liquidity pools to ensure market depth |
+| 📢 **Global Marketing** | **15%** | **6,000,000 $ZNTC** | Dedicated for global expansions, CEX listings & marketing |
+| 👨‍💻 **Development Team** | **15%** | **6,000,000 $ZNTC** | Allocated for long-term AI innovations & infrastructure |
+| 🔥 **Strategic Burn Plan** | **10%** | **4,000,000 $ZNTC** | Systematic deflationary burns to accelerate token scarcity |
 
 ---
-## 🌐 Ecosystem Navigation
-- **Main Gateway**: [zynethic.xyz](https://zynethic.xyz)
-- **ZYNETHIC dApp Portal**: [app.zynethic.xyz](https://app.zynethic.xyz)
-- **ZYNETHIC AI Hub**: [ai.zynethic.xyz](https://ai.zynethic.xyz)
+## 🔗 Official Portal & Community Channels
+- **Official Gateway**: [zynethic.xyz](https://zynethic.xyz)
+- **dApp Governance Portal**: [app.zynethic.xyz](https://app.zynethic.xyz)
+- **AI Intelligence Hub**: [ai.zynethic.xyz](https://ai.zynethic.xyz)
 - **X (Twitter)**: [@zynethic](https://x.com/zynethic)
-- **Telegram Global Community**: [ZYNETHIC Community](https://t.me/zynethic_global_community)
+- **Telegram Global**: [ZYNETHIC Community](https://t.me/zynethic_global_community)
 ---
-© 2026 ZYNETHIC ECOSYSTEM. BUILT ON BASE L2.
+<p align="center">
+  <b>© 2026 ZYNETHIC ECOSYSTEM. BUILT ON BASE L2.</b>
+</p>
